@@ -1,0 +1,39 @@
+ul
+{
+	list-style: none;
+}
+
+#left-menu
+{
+	margin-left: 20px;
+	width: 320px;
+	height: 500px;
+	background: red;
+	font: 14px "微软雅黑";
+	line-height: 18px;
+	float: left;
+}
+
+.major-menu{
+	width: 100%;
+	height: 50px;
+	background-color: lightblue;
+}
+.major-menu:hover
+{
+	background-color: white;
+}
+
+.sub-menu{
+	margin-left: 20%;
+	width: 80%;
+	height: 50px;
+	background-color: lightgreen;
+	display: none;
+}
+
+.sub-menu:hover{
+	background-color: white;
+}
+
+
