@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'show-arrow';
+  src:  url('fonts/show-arrow.eot?2m88on');
+  src:  url('fonts/show-arrow.eot?2m88on#iefix') format('embedded-opentype'),
+    url('fonts/show-arrow.ttf?2m88on') format('truetype'),
+    url('fonts/show-arrow.woff?2m88on') format('woff'),
+    url('fonts/show-arrow.svg?2m88on#show-arrow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-show"], [class*=" icon-show"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'show-arrow' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-showchevron-down:before {
+  content: "\e900";
+}
+.icon-showchevron-right:before {
+  content: "\e902";
+}
+span {
+	display: block;
+}
+.icon-showchevron-right:hover {
+	color: red;
+	
+	
+	
+}

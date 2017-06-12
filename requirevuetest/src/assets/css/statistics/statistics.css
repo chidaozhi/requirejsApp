@@ -1,0 +1,183 @@
+.main
+{
+	/*width: 900px;*/
+	width: 100%;
+}
+.overview
+{
+	width: 100%;
+	height: 150px;
+	background: #EEEEEE;
+	overflow: hidden;
+	/*padding-top: 1px; //添加*/
+}
+.over-content
+{
+	height: 110px;
+	/*width: 90%;//左右留空*/
+	position: relative;
+	/*left: 5%;//左右留空*/
+	background: url(../../img/headerbg.png) no-repeat;
+	background-size: 98% 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.status-img
+{
+	width:130px;
+	height: 80px;
+	background: url(../../img/health.png) no-repeat;
+	margin-top: 19px;
+	margin-left: 20px;
+	overflow: hidden;
+	float: left;
+}
+.equipmentInformation
+{
+	width:80%;
+	height: 50px;
+	margin-top: 30px;
+	background: black;
+	float: left;
+	line-height: 25px;
+	font-size: 13px;
+}
+.equipment
+{
+	height: 100%;
+	width: 25%;
+	background: #FFFFFF;
+	float: left;
+	
+}
+.usage
+{
+	height: 100%;
+	width: 25%;
+	background: #FFFFFF;
+	float: left;
+}
+.status
+{
+	height: 100%;
+	width: 25%;
+	background: #FFFFFF;
+	float: left;
+}
+.runtime
+{
+	height: 100%;
+	width: 25%;
+	background: #FFFFFF;
+	float: left;
+}
+.extend
+{
+	width: 90px;
+	height: 70px;
+	margin-top: 20px;
+	float: left;
+	background: #FFFFFF;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+}
+.realtime
+{
+	width: 80px;
+	height: 30px;
+	border: solid thin #C9C9C9;
+}
+.details
+{
+	width: 80px;
+	height: 30px;
+	border: solid thin #C9C9C9;
+	margin-top: 5px;
+}
+.gauge
+{
+	width: 100%;
+	height: 320px;
+	background: #EE5F5B;
+	overflow: hidden;
+	border: solid #ECECEC;
+}
+.gaugeContent
+{
+	width: 100%;
+	min-width: 812px;
+	height: 320px;
+	/*margin-top: 65px;*/
+	background: white;
+}
+.gaugeCPU{
+	width:30%;
+	min-width: 406px;
+	height:320px; 
+	position: relative;
+	left: 20%;
+	background: white;
+	float: left;
+	overflow: hidden;
+}
+.gaugeRAM{
+	width:30%;
+	height:320px;
+	min-width: 406px; 
+	position: relative;
+	left: 20%;
+	background: white;
+	float: left;
+	overflow: hidden;
+}
+.line{
+	width: 100%;
+	min-width: 812px;
+	height: 500px;
+	background: orange;
+	overflow: hidden;
+}
+.control{
+	width:200px ;
+	height: 100%;
+	background: yellow;
+	float: left;
+	overflow: hidden;
+}
+.range
+{
+	width: 100%;
+	height: 45px;
+	font-size: 14px;
+	line-height: 45px;
+	padding-left: 20px;
+}
+.check
+{
+	padding-left: -10px;
+	height: 90px;
+}
+
+.lineChart{
+	margin-left: 200px;
+	width: 100%;
+	min-width: 612px;
+	height: 100%;
+	background: green;
+	float: left;
+}
+#countCPU
+{
+	width: 350px;
+	height:350px;
+	float: left;
+	margin-left: 8%;
+}
+#countRAM
+{
+	width: 350px;
+	height:350px;
+	float: left;
+	margin-left: 8%;
+}

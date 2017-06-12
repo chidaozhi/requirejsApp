@@ -1,0 +1,14 @@
+#header{
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	background: #393534;
+	font: "楷体";
+	color: white;
+	vertical-align: middle;
+	/*overflow: hidden;/*解决margin&padding不统一的溢出问题*/*/
+}
+
+.logo{
+	margin-left: 50px;
+}

@@ -1,39 +1,68 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
 ul
 {
 	list-style: none;
 }
+#main{
+	/*display: table;*/	
+	width: 100%;
+	height: 100%;
+	
+}
 
 #left-menu
 {
-	margin-left: 20px;
-	width: 320px;
-	height: 500px;
-	background: red;
+	width: 20%;
+	height: 100%;
+	min-height: 100%;
+	background: #4A4849;
 	font: 14px "微软雅黑";
-	line-height: 18px;
+	color: #A4A2A3;
 	float: left;
+	/*display: table-cell;*/
 }
 
 .major-menu{
+	padding-left: 20px;
 	width: 100%;
 	height: 50px;
-	background-color: lightblue;
+	line-height: 50px;
+	border-bottom:thin solid #413F40;
+	border-top:thin solid #5D5B5C;
+	background-color: #4A4849;
 }
 .major-menu:hover
 {
-	background-color: white;
+	background-color: #79B039;
+	color: #3D590F;
+}
+.major-menu a:visited
+{
+	color: #79B039;
 }
 
 .sub-menu{
-	margin-left: 20%;
+	padding-left: 20%;
 	width: 80%;
 	height: 50px;
-	background-color: lightgreen;
+	line-height: 50px;
+	border-bottom:thin solid #413F40;
+	border-top:thin solid #5D5B5C;
+	background-color: #333333;
 	display: none;
+	overflow: hidden;
 }
 
 .sub-menu:hover{
-	background-color: white;
+	color: #79B039;
+}
+.sub-menu a:visited{
+	color: #79B039;
 }
 
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>font</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<span id="icon" class="icon-showchevron-right" ></span>
+		<script type="text/javascript">
+			$(function(){
+				$('#icon').click(function(){
+					if($(this).classname == 'icon-showchevron-right'){
+						$(this).toggleClass('icon-showchevron-down');
+					}else {
+						$(this).toggleClass('icon-showchevron-right');
+					}
+					
+					
+				});
+				
+			});
+		</script>
+	</body>
+</html>

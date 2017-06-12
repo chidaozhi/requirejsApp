@@ -1,0 +1,19 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+html,body,div,ul,li,ol,table,tbody,tr, th, td,p,h1, h2,
+h3, h4, h5, h6,iframe,nav,span,a,img,dl, dt, dd, form,footer, header{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+footer, header,nav,section{
+	display: block;
+}
